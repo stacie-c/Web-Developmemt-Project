@@ -1,0 +1,59 @@
+
+   .
+   
+   
+   body {
+        background-color: #fae0e5; /* Light pink color */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        height: 100vh; /* Full viewport height */
+    }
+    
+    /* Container to align the elements */
+    .container {
+        background-color: rgb(142, 90, 110);
+        display: flex; /* Use flexbox to align items in a row */
+        gap: 16px; /* Space between the items */
+        padding: 16px; /* Padding around the container */
+        width: 80%; /* Adjust the container width as needed */
+    }
+    .title {
+        font-size: 2.5em;
+        color: black;
+        text-align: center;
+        margin: 20px 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .professional {
+        font-size: 2.5em;
+        color: black;
+        text-align: center;
+        margin: 20px 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+     /* Style for tableauPlaceholder element */
+    .tableauPlaceholder {
+        width: 50%; /* Adjust width as needed */
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+    
+    /* Style for iframe elements */
+    iframe {
+        width: 50%; /* Adjust width as needed */
+        height: auto; /* Adjust height to maintain aspect ratio */
+        aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio for the iframes */
+        border: none; /* Remove border */
+    }
+
+    a{
+        color: rgb(138, 168, 192);
+        text-decoration: none;
+    }
+
+    a :hover {
+        color: rgb(73, 73, 117);
+    }
